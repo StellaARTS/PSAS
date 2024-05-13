@@ -10,7 +10,7 @@
 <?php
 include_once('config.php');
 $id = $_GET['id'];
-$sql = "SELECT * FROM mapel WHERE id='$id'";
+$sql = "SELECT * FROM mapel1 WHERE id='$id'";
 $result = mysqli_query($con, $sql);
 $r=mysqli_fetch_assoc($result);
 ?>
